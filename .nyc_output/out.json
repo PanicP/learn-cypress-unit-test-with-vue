@@ -1,0 +1,102 @@
+{
+  "/Users/panicp/Projects/cypress-with-vuejs/src/components/Counter.vue": {
+    "path": "/Users/panicp/Projects/cypress-with-vuejs/src/components/Counter.vue",
+    "statementMap": {
+      "0": {
+        "start": {
+          "line": 10,
+          "column": 15
+        },
+        "end": {
+          "line": 12,
+          "column": 3
+        }
+      },
+      "1": {
+        "start": {
+          "line": 15,
+          "column": 6
+        },
+        "end": {
+          "line": 15,
+          "column": 20
+        }
+      }
+    },
+    "fnMap": {
+      "0": {
+        "name": "(anonymous_0)",
+        "decl": {
+          "start": {
+            "line": 10,
+            "column": 8
+          },
+          "end": {
+            "line": 10,
+            "column": 9
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 10,
+            "column": 15
+          },
+          "end": {
+            "line": 12,
+            "column": 3
+          }
+        },
+        "line": 10
+      },
+      "1": {
+        "name": "(anonymous_1)",
+        "decl": {
+          "start": {
+            "line": 14,
+            "column": 4
+          },
+          "end": {
+            "line": 14,
+            "column": 5
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 14,
+            "column": 16
+          },
+          "end": {
+            "line": 16,
+            "column": 5
+          }
+        },
+        "line": 14
+      }
+    },
+    "branchMap": {},
+    "s": {
+      "0": 5,
+      "1": 2
+    },
+    "f": {
+      "0": 5,
+      "1": 2
+    },
+    "b": {},
+    "inputSourceMap": {
+      "version": 3,
+      "sources": [
+        "/Users/panicp/Projects/cypress-with-vuejs/src/components/Counter.vue"
+      ],
+      "names": [],
+      "mappings": ";;;;;;;;AAQA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA",
+      "file": "Counter.vue",
+      "sourceRoot": "",
+      "sourcesContent": [
+        "<template>\n  <div>\n    <button @click=\"increment\">+1</button>\n    <div>counter: {{ counter }}</div>\n  </div>\n</template>\n\n<script>\nexport default {\n  data: () => ({\n    counter: 0\n  }),\n  methods: {\n    increment() {\n      this.counter++\n    }\n  }\n}\n</script>"
+      ]
+    },
+    "_coverageSchema": "1a1c01bbd47fc00a2c39e90264f33305004495a9",
+    "hash": "7efbdd1515e2cc93ee14fda80b867cab74a74f5a"
+  }
+}
